@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>log in</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id=slide_back>
+            <a href="index.html">
+                <img class="homebutton" src="images/home.svg" height="8%" width="5%">
+            </a>
+            
+            <form class="box" method="POST" action="login.php">
+                <h1>Login</h1>
+                <input type="TEXT" name="username" placeholder="username" required >                
+                <input type="password" name="password" placeholder="password" required >
+                <div class="customer_type">
+                    <p>Login as a Seller or Buyer?</p>
+                    <label>
+                        <input type="radio" name="customer_type" value="seller" required>
+                        <span class="Seller">Seller</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="customer_type" value="Buyer">
+                        <span class="Buyer">Buyer</span>
+                    </label>
+                </div>
+                <input type="submit" name="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>

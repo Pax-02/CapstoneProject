@@ -1,0 +1,8 @@
+[30-Mar-2022 06:59:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_logo() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php on line 15
+[30-Mar-2022 09:39:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_header_markup() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php on line 15

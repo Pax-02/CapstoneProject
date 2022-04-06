@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sign up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <link rel="stylesheet" href="css/signup.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id=slide_back>
+            
+            <a href="index.html">
+                <img class="homebutton" src="images/home.svg" height="8%" width="5%">
+            </a>
+            <form class="box" method="POST" action="signup.php">
+                <h1>Sign up</h1>
+                <INPUT TYPE="TEXT" placeholder="first name" NAME="first_name" required>
+                <INPUT TYPE="TEXT" placeholder="lastname" NAME="last_name" required>
+                <INPUT TYPE="TEXT" placeholder="location" NAME="location" required>
+                <INPUT TYPE="TEXT" placeholder="phone number" NAME="phone_number" required>
+                <input type="TEXT" name="username" placeholder="username"  required> 
+                <input type="password" name="password" placeholder="password" minlength="4" required>
+                <input type="password" name="confirm-password" placeholder="confirm-password" minlength="4" required>
+                <div class="customer_type">
+                    <p>Create as a Seller or Buyer?</p>
+                    <label>
+                        <input type="radio" name="customer_type" value="seller" required>
+                        <span class="Seller">Seller</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="customer_type" value="Buyer">
+                        <span class="Buyer">Buyer</span>
+                    </label>
+                </div>
+                <input type="submit" name="submit" value="Sign up">
+                
+            </form>
+        </div>
+    </body>
+</html>

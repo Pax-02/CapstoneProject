@@ -1,0 +1,100 @@
+[28-Aug-2020 23:14:38 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Aug-2020 00:27:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[30-Aug-2020 05:48:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[03-Dec-2020 21:07:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 17:53:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 20:30:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Jan-2021 01:51:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[03-Mar-2021 14:52:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[24-May-2021 11:31:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[24-May-2021 21:35:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[02-Jul-2021 13:23:12 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[24-Aug-2021 12:20:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[26-Sep-2021 00:58:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[02-Oct-2021 22:12:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[30-Mar-2022 06:32:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[30-Mar-2022 07:25:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/comments.php:21
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/comments.php on line 21
+[30-Mar-2022 07:28:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/header.php on line 16
+[30-Mar-2022 07:43:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[30-Mar-2022 07:56:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/searchform.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/searchform.php on line 13
+[30-Mar-2022 08:43:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/search.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/search.php on line 13
+[30-Mar-2022 09:00:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[30-Mar-2022 09:32:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/sidebar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/sidebar.php on line 13
+[30-Mar-2022 09:39:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/single.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/single.php on line 13
+[30-Mar-2022 10:18:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/front-page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/front-page.php on line 15
+[30-Mar-2022 11:53:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/page.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-content/themes/twentyseventeen/page.php on line 18

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 224, 235);
+    font-family:"Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    
+    
+}
+
+.logo{
+    size: 50px;
+    background-color: #24252A;
+}
+
+li ,a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #24252A;
+} 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 20%;
+    background-color: #24252A;
+    
+}
+
+
+
+.option_links{
+    list-style: none;
+    
+}
+
+.option_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #24252A;
+}
+
+.option_links li a {
+    transition: all 0.3s ease-in 0s;
+}
+
+.option_links li a:hover {
+    color: aqua;
+}
+
+.UserAndLogout{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #24252A;
+
+}
+
+.user{
+    background-color: #24252A;
+    
+
+}
+
+form{
+    position: absolute;
+    top:23%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    border:3px solid #32e17c;
+    background: #333;
+    transition: 1.4s;
+    
+}
+
+input{
+    position:absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 52px;
+    line-height: 75px;
+    outline: 0;
+    display: none;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 0px 20px;
+    
+
+     
+}
+
+i.fa{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 52px;
+    height: 52px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    transition: 1.4s;
+    color:chartreuse;
+    background: #262626;
+    padding: 15px;
+}
+
+form:hover{
+    width:500px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+#product-view{
+    width: auto;   
+    margin: 100px 40px;
+    position: absolute;
+    top:18%;
+    left: 30px;
+    
+    
+}
+
+
+#img_div{
+    /* height: 30px;
+	width: 350px; */
+    margin: 0px 15px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;    
+    background-color: #4a794a;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.product-box{
+    background-color: #333;
+    width: auto;
+    height: 530px;
+    margin: 0;
+}
+
+.product-box h2,h3{
+    width: auto;
+    padding: 7px;
+    background-color: #4a794a;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    font-family:"Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product-box img{
+    height: 180px;
+    display: absolute;
+    margin:  10px;
+    position: relative;
+}
+
+
+.product-box p{
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #349834;
+    padding: 10px 8px;
+    width: 300px;
+    height: 70px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px #4a794a;
+
+}
+
+.product-box span{
+    background: none;
+    display: block;
+    margin: 10px 70px;
+    text-align: center;
+    border: 2px solid #349834;
+    padding: 10px 8px;
+    width: 150px;
+    height: auto;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 2px #4a794a;
+    
+
+
+}
+

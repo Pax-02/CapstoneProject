@@ -1,0 +1,94 @@
+
+@charset "UTF-8";
+
+#slide_back{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease;
+    background-image: url('../images/one.jpg');
+    /* opacity: 0.7; */
+
+}
+
+@keyframes slideBg{
+    0% {
+        background-image: url('../images/one.jpg');
+
+    }
+    25% {
+        background-image: url('../images/two.jpg');
+
+    }
+
+    50% {
+        background-image: url('../images/three.jpg');
+
+    }
+
+    75% {
+        background-image: url('../images/four.jpg');
+
+    }
+    
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* Change the position property to fixed, and top property to 0 */
+    position:fixed;
+    top:0;
+    z-index:10;}
+
+.logo {
+    height: 50px;
+}
+    
+
+
+.left-header{
+    
+    float: left;
+}
+.right-header{
+    
+    float:right;
+    
+    
+}
+
+
+
+.top-wrapper{
+    padding: 250px;
+    text-align: center;
+    color:black;
+    position: center;
+    width: 100%;
+    background-color: rgb(212, 204, 192);
+    opacity: 0.7;
+    
+}
+
+
+.signup{
+    background-color: rgb(14, 233, 160);
+    text-align: center;
+    color: black;
+    position: center;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 20px;
+}
+
+.top:hover{
+    opacity: 1;
+    color: aqua;
+    
+}

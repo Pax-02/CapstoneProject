@@ -1,0 +1,688 @@
+[16-Aug-2020 17:20:42 UTC] WordPress database error Unknown column 'has_ancestors' in 'field list' for query INSERT INTO `wp_yoast_indexable` (`object_id`, `object_type`, `object_sub_type`, `permalink`, `primary_focus_keyword_score`, `readability_score`, `is_cornerstone`, `is_robots_noindex`, `is_robots_nofollow`, `is_robots_noimageindex`, `is_robots_noarchive`, `is_robots_nosnippet`, `open_graph_image`, `open_graph_image_id`, `open_graph_image_source`, `open_graph_image_meta`, `twitter_image`, `twitter_image_id`, `twitter_image_source`, `primary_focus_keyword`, `canonical`, `title`, `description`, `breadcrumb_title`, `open_graph_title`, `open_graph_description`, `twitter_title`, `twitter_description`, `author_id`, `post_parent`, `number_of_pages`, `post_status`, `is_protected`, `is_public`, `has_public_posts`, `blog_id`, `has_ancestors`, `permalink_hash`, `created_at`, `updated_at`) VALUES ('5245', 'post', 'page', 'https://wihendwa.com/', NULL, '0', '0', NULL, '0', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Home Page', NULL, NULL, NULL, NULL, '1', '0', NULL, 'publish', '0', NULL, NULL, '1', '', '21:fc10ac7db2e61fce8c769a9651e896a4', '2020-08-16 17:20:42', '2020-08-16 17:20:42') made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/electro/page.php'), electro_get_header, get_header, locate_template, load_template, require_once('/themes/electro/header-v1.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Front_End_Integration->call_wpseo_head, do_action('wpseo_head'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast\WP\SEO\Integrations\Front_End_Integration->present_head, Yoast\WP\SEO\Memoizers\Meta_Tags_Context_Memoizer->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->for_current_page, Yoast\WP\SEO\Repositories\Indexable_Repository->find_by_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->build_for_id_and_type, Yoast\WP\SEO\Builders\Indexable_Builder->save_indexable, Yoast\WP\SEO\Models\Indexable->save, Yoast\WP\Lib\Model->save, Yoast\WP\Lib\ORM->save, Yoast\WP\Lib\ORM::_execute
+[19-Aug-2020 21:30:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=145505 in /home1/wihendwa/public_html/wp-includes/wp-db.php on line 2024
+[23-Aug-2020 21:39:36 UTC] PHP Warning:  Error while sending QUERY packet. PID=101665 in /home1/wihendwa/public_html/wp-includes/wp-db.php on line 2024
+[24-Aug-2020 15:57:15 UTC] PHP Warning:  Error while sending QUERY packet. PID=450649 in /home1/wihendwa/public_html/wp-includes/wp-db.php on line 2024
+[26-Nov-2020 17:59:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function electro_do_shortcode() in /home1/wihendwa/public_html/wp-content/plugins/electro-extensions/modules/js_composer/includes/elements/vc-products-carousel-with-category-tabs.php:45
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/shortcodes.php(343): electro_vc_products_carousel_with_category_tabs_block(Array, '', 'electro_vc_prod...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home1/wihendwa/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(electr...', 'do_shortcode_ta...', '[electro_vc_pro...')
+#3 /home1/wihendwa/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[electro_vc_pro...')
+#4 /home1/wihendwa/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column.php(94): wpb_js_remove_wpautop('[electro_vc_pro...')
+#5 /home1/wihendwa/public_html/wp-content/plugins/js_composer/include/classes/shortcodes/core/class-wpbakeryshortcode.php(271): require('/home1/wihendwa. in /home1/wihendwa/public_html/wp-content/plugins/electro-extensions/modules/js_composer/includes/elements/vc-products-carousel-with-category-tabs.php on line 45
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[15-Jul-2021 04:07:03 UTC] PHP Warning:  include(): Failed opening '/home1/wihendwa/public_html/wp-content/plugins/woocommerce/templates/content-widget-product.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 344
+[10-Feb-2022 02:52:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 02:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 02:56:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 02:57:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 02:59:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 03:01:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 03:04:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 03:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 03:14:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:31:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:35:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:36:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:39:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:44:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 08:47:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:47:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:48:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:49:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:52:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:54:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:55:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[10-Feb-2022 21:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:04:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:05:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:06:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:08:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:10:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:11:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:13:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:14:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 08:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 09:15:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 09:29:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 09:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 09:55:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:01:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:09:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:45:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[11-Feb-2022 10:58:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 21:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:01:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:06:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:21:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:25:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:30:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33
+[27-Feb-2022 22:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_cart_contents_count() on null in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php:33
+Stack trace:
+#0 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_mini_cart_icon('')
+#1 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(48): do_action('electro_header_...')
+#4 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(287): electro_header_icons('')
+#5 /home1/wihendwa/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/wihendwa/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home1/wihendwa/public_html/wp-content/themes/electro/inc/template-tags/header.php(35): do_action('electro_masthea...')
+#8 /home1/wihendw in /home1/wihendwa/public_html/wp-content/themes/electro/inc/woocommerce/template-tags/header.php on line 33

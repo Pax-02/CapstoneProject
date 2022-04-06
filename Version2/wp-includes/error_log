@@ -1,0 +1,31 @@
+[11-Feb-2021 02:13:50 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[11-Feb-2021 02:13:50 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[11-Feb-2021 02:13:50 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[11-Feb-2021 02:13:50 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[11-Feb-2021 02:13:50 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[28-Jul-2021 19:38:27 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/wihendwa/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[29-Jul-2021 23:41:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/wihendwa/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-includes/locale.php on line 11
+[26-Oct-2021 00:31:28 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/wihendwa/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[26-Oct-2021 07:20:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/wihendwa/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/wihendwa/public_html/wp-includes/locale.php on line 11
+[27-Jan-2022 09:50:47 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[27-Jan-2022 09:50:47 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[27-Jan-2022 09:50:47 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[27-Jan-2022 09:50:47 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[27-Jan-2022 09:50:47 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[21-Mar-2022 14:58:36 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[21-Mar-2022 14:58:36 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[21-Mar-2022 14:58:36 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[21-Mar-2022 14:58:36 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
+[21-Mar-2022 14:58:36 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/wihendwa/public_html/wp-includes/functions.php on line 8
